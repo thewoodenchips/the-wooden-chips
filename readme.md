@@ -1,3 +1,7 @@
+
+![logo](https://github.com/BenTechCoder/the-wooden-chips/assets/71533854/df57f4d3-b9aa-4e82-a20d-851a0623d0a0)
+
+
 # Eleventy Excellent
 
 Opiniated but easy to use Eleventy starter, based on the workflow suggested by Andy Bell's [buildexcellentwebsit.es](https://buildexcellentwebsit.es/).
