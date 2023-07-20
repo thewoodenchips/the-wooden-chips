@@ -18,6 +18,7 @@ const packageVersion = require('./package.json').version;
 
 // module import filters
 const {
+  toUpperCase,
   limit,
   toHtml,
   where,
@@ -68,6 +69,7 @@ module.exports = eleventyConfig => {
   eleventyConfig.addLayoutAlias('post', 'post.njk');
 
   // 	---------------------  Custom filters -----------------------
+  eleventyConfig.addFilter('toUpperCase', toUpperCase);
   eleventyConfig.addFilter('limit', limit);
   eleventyConfig.addFilter('where', where);
   eleventyConfig.addFilter('escape', escape);

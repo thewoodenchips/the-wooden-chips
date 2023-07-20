@@ -5,48 +5,47 @@
   project: https://cube.fyi/css.html
 */
 
-
-
-
 body {
   color: var(--color-dark);
   background: var(--color-primary);
   font-size: var(--size-step-0);
   font-family: var(--font-base);
-  line-height: 1.4;
+  line-height: 1.3;
   letter-spacing: var(--tracking);
 }
 
 /* Base typesetting */
 h1,
 h2,
-h3 {
-  line-height: 1;
+h3,
+h4 {
+  line-height: 1.1;
   letter-spacing: var(--tracking-s);
   font-family: var(--font-display);
+  text-transform: uppercase;
 }
 
 h1 {
-  font-size: var(--size-step-6);
-}
-
-h2 {
   font-size: var(--size-step-5);
 }
 
-h3 {
+h2 {
   font-size: var(--size-step-4);
 }
 
-h4 {
+h3 {
   font-size: var(--size-step-3);
+}
+
+h4 {
+  font-size: var(--size-step-2);
 }
 
 /* Set line lengths */
 p,
 li,
 blockquote:not([class]) {
-  max-inline-size: 50ch;
+  max-inline-size: 60ch;
 }
 
 h1,
@@ -127,26 +126,4 @@ article [href^='http']:not([href*='eleventy-excellent.netlify.app'])::after {
 
 .preload-transitions * {
   transition: none !important;
-}
-
-.hero {
-  position: relative;
-  --region-space-top: var(--space-2xl);
-  --region-space-bottom: var(--space-2xl);
-}
-
-.hero img {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  object-fit: cover;
-}
-
-.hero__inner {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  z-index: 2;
 }

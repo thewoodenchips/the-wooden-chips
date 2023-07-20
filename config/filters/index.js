@@ -6,6 +6,12 @@ const site = require('../../src/_data/meta');
 const {throwIfNotType} = require('../utils');
 const md = require('markdown-it')();
 
+/** Return String in uppercase letters */
+
+const toUpperCase = (string) => {
+  return string.toUpperCase()
+}
+
 /** Returns the first `limit` elements of the the given array. */
 const limit = (array, limit) => {
   if (limit < 0) {
@@ -122,6 +128,7 @@ const splitlines = (input, maxCharLength) => {
 };
 
 module.exports = {
+  toUpperCase,
   limit,
   toHtml,
   where,

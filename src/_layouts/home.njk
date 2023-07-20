@@ -4,14 +4,14 @@ layout: base
 
 <header class="hero | region">
   <div class="hero__inner">
-    <div class="gutter flow region text-light">
+    <div class="gutter flow text-light">
       <div>
-        <p class="eyebrow">{{ eyebrow }}</p>
-        <h1 class="text-secondary">{{ title }}</h1>
+        <p class="eyebrow">{{ eyebrow | toUpperCase}}</p>
+        <h1 class="text-secondary">{{ title | toUpperCase}}</h1>
       </div>
       <div class="cluster">
-        <a href="/contact/" class="btn">Contact</a>
-        <a href="/services/" class="btn">Services</a>
+        <a href="/contact/" class="btn | bg-primary-glare shadow">Contact</a>
+        <a href="/services/" class="btn | bg-dark shadow">Services</a>
       </div>
     </div>
   </div>
@@ -19,13 +19,7 @@ layout: base
 </header>
 
 
-{# 
-
-<article class="region">
-  <div class="wrapper flow prose">
-    {{ content | safe }}
-  </div>
-</article>
+{% include "partials/intro-home.njk" %}
 
 <article class="region" style="--region-space-top: var(--space-s)">
   <div class="wrapper flow prose">
@@ -35,6 +29,7 @@ layout: base
     <p>{{ blog.intro }}</p>
     {% endif %}
   </div>
+
   <!-- TODO: duplicate of partials/blog.njk -->
 
   <ul class="wrapper grid mt-l-xl" role="list" data-rows="masonry" data-layout="50-50">
@@ -52,4 +47,3 @@ layout: base
   </ul>
 </article> 
 
-#}
