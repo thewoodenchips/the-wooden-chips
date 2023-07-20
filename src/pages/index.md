@@ -1,6 +1,7 @@
 ---
 permalink: /index.html
-title: ' Eleventy Excellent'
+title: 'GET YOUR SECURITY CAMERAS INSTALLED BY A PROFESSIONAL HANDYMAN.'
+eyebrow: 'AND MORE'
 description: 'Eleventy starter using modern CSS, fluid type, fluid spacing, flexible layout and progressive enhancement.'
 layout: 'home'
 blog:

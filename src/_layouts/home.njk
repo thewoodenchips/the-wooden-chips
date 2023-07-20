@@ -2,14 +2,24 @@
 layout: base
 ---
 
-<header class="section spot-color-primary">
-  <div class="section__inner">
-    <div class="wrapper flow region">
-      <h1 class="text-center">{{ title }}</h1>
+<header class="hero | region">
+  <div class="hero__inner">
+    <div class="gutter flow region text-light">
+      <div>
+        <p class="eyebrow">{{ eyebrow }}</p>
+        <h1 class="text-secondary">{{ title }}</h1>
+      </div>
+      <div class="cluster">
+        <a href="/contact/" class="btn">Contact</a>
+        <a href="/services/" class="btn">Services</a>
+      </div>
     </div>
   </div>
-  {% include 'svg/divider-waves.svg' %}
+  {% imageShortcode "./src/assets/images/homehero.png", "Toolbox on stairs" %}
 </header>
+
+
+{# 
 
 <article class="region">
   <div class="wrapper flow prose">
@@ -40,4 +50,6 @@ layout: base
 
     {% endfor %}
   </ul>
-</article>
+</article> 
+
+#}

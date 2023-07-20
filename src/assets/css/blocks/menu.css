@@ -5,16 +5,27 @@
   }
 
   nav.navbar ul {
-    --nav-list-background: transparent;
+    --nav-list-background: var(--color-light);
     --nav-list-layout: row;
     --nav-list-position: static;
-    --nav-list-padding: 0;
+    --nav-list-padding: var(--space-s);
     --nav-list-height: auto;
     --nav-list-width: 100%;
     --nav-list-shadow: none;
     --nav-list-transform: none;
     --nav-list-visibility: visible;
   }
+  
+  nav.navbar > ul > li:not(:last-child) a::after {
+    content: "|";
+    padding: 0 var(--space-s-m) 0;
+  }
+
+  /* nav.navbar > ul > li > a::after {
+    content: "|";
+    padding: 0 2rem 0;
+  } */
+  
 }
 
 /* set on parent div to get the right z-index context */
@@ -24,7 +35,7 @@
 }
 
 nav.navbar {
-  position: var(--nav-position, absolute);
+  position: var(--nav-position, static);
   /* inset-block-start: 0.5rem; */
   inset-inline-end: 0.1rem;
 }
@@ -34,6 +45,9 @@ nav.navbar ul {
   background: var(--nav-list-background, var(--color-light));
   box-shadow: var(--nav-list-shadow, -5px 0 11px 0 rgb(0 0 0 / 0.2));
   display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
   flex-direction: var(--nav-list-layout, column);
   gap: var(--space-s);
   block-size: var(--nav-list-height, 100vh);
@@ -43,7 +57,7 @@ nav.navbar ul {
   position: var(--nav-list-position, fixed);
   inset-block-start: 0; /* Logical property. Equivalent to top: 0; */
   inset-inline-end: 0; /* Logical property. Equivalent to right: 0; */
-  inline-size: var(--nav-list-width, min(22rem, 100vw));
+  inline-size: var(--nav-list-width, 100%);
   visibility: var(--nav-list-visibility, visible);
 }
 
@@ -64,12 +78,13 @@ nav.navbar [aria-expanded='false'] + ul {
 /* Basic link styling */
 nav.navbar a {
   --text-color: var(--color-dark);
+  font-family: var(--font-display);
   color: var(--text-color);
   padding: 0.1rem;
   text-decoration: none;
   display: block;
   text-decoration-line: underline;
-  text-decoration-color: var(--border-color, transparent);
+  text-decoration-color: var(--border-color, var(--color-primary));
   text-decoration-thickness: 3px;
   text-underline-offset: 0.3em;
 }

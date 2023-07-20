@@ -5,7 +5,6 @@
     <div class="site-foot__inner">
       <nav id="footernav" class="site-foot__inner text-step-0" aria-label="Footer">
 
-        &copy; {% year %} <a href="/" {% if activePage === '/' %} aria-current="page" {% endif %}>{{ meta.siteName }} <small>{% packageVersion %}</small> </a>
 
         {% for item in navigation.bottom %}
 
@@ -20,10 +19,13 @@
           >{{ item.text }}</a
         >
 
+        <h4></h4>
+        
+
         {% endfor %}
       </nav>
 
-      <nav id="social" class="site-foot__inner" aria-label="Social links">
+      {# <nav id="social" class="site-foot__inner" aria-label="Social links">
         {% for item in social %}
 
         {% if item.platform == "rss" %}
@@ -35,7 +37,7 @@
           <div aria-hidden="true">{% include 'icons/social-' + item.icon %}</div>
           </a
           >
-        {% endfor %}
+        {% endfor %} #}
 
 
         </nav>

@@ -1,20 +1,16 @@
 module.exports = {
   top: [
     {
-      text: 'About',
-      url: '/about/'
+      text: 'Handyman Services',
+      url: '/services/'
     },
     {
-      text: 'Get started',
-      url: '/get-started/'
+      text: 'Service Area',
+      url: '/service-area/'
     },
     {
-      text: 'Built with',
-      url: '/built-with/'
-    },
-    {
-      text: 'Blog',
-      url: '/blog/'
+      text: 'Contact',
+      url: '/contact/'
     }
   ],
   bottom: [
