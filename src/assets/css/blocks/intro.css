@@ -1,0 +1,9 @@
+.intro-pillars h3 {
+    max-width: 70ch;
+}
+
+.intro-pillars p {
+    max-width: 40ch;
+    margin-right: auto;
+    margin-left: auto;
+}

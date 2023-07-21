@@ -61,6 +61,8 @@ nav.navbar ul {
   visibility: var(--nav-list-visibility, visible);
 }
 
+/* TODO: add svg pattern to open navmenu */
+
 nav.navbar [aria-expanded='false'] + ul {
   transform: var(--nav-list-transform, translateX(100%));
   visibility: var(--nav-list-visibility, hidden);
