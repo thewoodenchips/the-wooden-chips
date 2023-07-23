@@ -5,6 +5,7 @@
   padding: var(--space-m-l);
   border-radius: var(--border-radius);
   max-inline-size: unset;
+  font-size: var(--size-step-0);
 }
 
 .card ::selection {
@@ -12,8 +13,8 @@
   background: var(--color-secondary);
 }
 
-.card h2 {
-  font-size: var(--size-step-3);
+.card h3 {
+  font-size: var(--size-step-2);
 }
 
 .card h2 a,

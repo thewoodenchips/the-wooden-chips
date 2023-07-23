@@ -21,26 +21,25 @@ layout: base
 
 {% include "partials/intro-home.njk" %}
 
-<article class="region" style="--region-space-top: var(--space-s)">
-  <div class="wrapper flow prose">
-    <h2>{{ blog.title }}</h2>
+<article class="region bg-light">
+  <div class="gutter flow">
+    <h2><mark>{{ services.title }}</mark></h2>
     <!-- blog intro text is optional. -->
-    {% if blog.intro %}
-    <p>{{ blog.intro }}</p>
+    {% if services.intro %}
+    <p>{{ services.intro }}</p>
     {% endif %}
   </div>
 
   <!-- TODO: duplicate of partials/blog.njk -->
 
-  <ul class="wrapper grid mt-l-xl" role="list" data-rows="masonry" data-layout="50-50">
-    {% set postslist = collections.posts %} {% for post in postslist.slice(0, 4) %}
+  <ul class="wrapper grid mt-l-xl" role="list" data-rows="masonry">
+    {% set serviceslist = collections.services %} {% for service in serviceslist.slice(0, 3) %}
 
     <li class="card flow overflow-hidden">
       <h3>
-        <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+        <a href="{{ service.url | url }}">{{ service.data.title }}</a>
       </h3>
-      {% set definedDate = post.date %} {% include "partials/date.njk" %}
-      <p>{{ post.data.description }}</p>
+      <p>{{ service.data.description }}</p>
     </li>
 
     {% endfor %}
