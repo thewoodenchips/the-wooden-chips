@@ -30,7 +30,8 @@
 }
 
 .cta {
-  --region-space: var(--space-xs);
+  --region-space-top: 0;
+  --region-space-bottom: var(--space-xs);
   align-items: center;
   justify-content: center;
 }
