@@ -24,10 +24,6 @@
   }
 
 
-  .hero__inner h1 {
-    max-width: 15ch;
-  }
-
   .eyebrow {
     font-family: var(--font-display);
     margin-bottom: 0.4em;
