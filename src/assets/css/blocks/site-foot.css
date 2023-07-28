@@ -1,4 +1,4 @@
-.site-foot {
+/* .site-foot {
   padding: var(--space-s-m);
   background: var(--color-dark);
   color: var(--color-light);
@@ -19,4 +19,31 @@
 .site-foot svg {
   block-size: 0.9em;
   inline-size: 0.9em;
+} */
+
+/* .site-foot {
+
+} */
+
+.site-foot svg {
+  height: 100%;
+  width: 100%;
 }
+
+.site-foot__inner img {
+margin: 0 auto;
+}
+.site-foot__inner nav {
+  margin: 0 auto;
+}
+
+.site-foot__inner li {
+  font-weight: bold;
+  max-width: 100%;
+}
+
+.site-foot__copyright {
+  --region-space-top: var(--space-m);
+  --region-space-bottom: var(--space-m);
+}
+
