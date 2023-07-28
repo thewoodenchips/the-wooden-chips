@@ -11,6 +11,7 @@
     border-radius: 0.5em;
     background-color: var(--color-primary);
   }
+  
 }
 
 /* .cta {
@@ -31,7 +32,7 @@
 
 .cta {
   --region-space-top: 0;
-  --region-space-bottom: var(--space-xs);
+  --region-space-bottom: var(--space-s);
   align-items: center;
   justify-content: center;
 }
