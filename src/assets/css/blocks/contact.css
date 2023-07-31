@@ -4,8 +4,13 @@
   align-content: center;
 }
 
-input {
+input, textarea {
   padding: var(--space-s);
+}
+
+[data-color--scheme="dark"] input, [data-color--scheme="dark"] textarea{
+  background-color: var(--color-dark);
+  color: var(--color-light);
 }
 
 .contact__info {
@@ -14,8 +19,10 @@ input {
 
 .contact button:hover {
   background-color: var(--color-secondary);
+  color: var(--color-light);
 }
 
 .contact button:focus {
   background-color: var(--color-secondary);
+  color: var(--color-light);
 }

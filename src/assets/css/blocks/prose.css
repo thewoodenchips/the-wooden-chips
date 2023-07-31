@@ -1,6 +1,23 @@
 .prose {
   --flow-space: var(--space-m-l);
-  --wrapper-max-width: 55rem;
+}
+
+.prose::before {
+  content: '';
+  display: block;
+  background-color: var(--color-light);
+  width: 100%;
+  height: 0.3rem;
+  margin-bottom: var(--space-xl);
+}
+
+.prose::after {
+  content: '';
+  display: block;
+  background-color: var(--color-light);
+  width: 100%;
+  height: 0.3rem;
+  margin-top: var(--space-xl);
 }
 
 .prose :is(h2, h3, h4) + * {
