@@ -2,21 +2,8 @@
 layout: base
 ---
 
-<header class="hero | region">
-  <div class="hero__inner">
-    <div class="gutter flow text-light">
-      <div>
-        <p class="eyebrow">{{ eyebrow | toUpperCase}}</p>
-        <h1 class="text-secondary">{{ title | toUpperCase}}</h1>
-      </div>
-      <div class="cluster">
-        <a href="/contact/" class="btn | bg-primary-glare shadow">Contact</a>
-        <a href="/services/" class="btn | bg-dark shadow">Services</a>
-      </div>
-    </div>
-  </div>
-  {% imageShortcode "./src/assets/images/homehero.png", "Toolbox on stairs" %}
-</header>
+
+{% include "partials/hero.njk" %}
 
 
 {% include "partials/intro-home.njk" %}

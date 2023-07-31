@@ -4,7 +4,7 @@ seo:
   title: Legal notice
 permalink: /imprint/index.html
 description: Imprint infos
-layout: page
+layout: post
 ---
 
 Edit your details in `_data/meta.js`

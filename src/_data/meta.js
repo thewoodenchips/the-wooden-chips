@@ -1,13 +1,13 @@
 module.exports = {
   url: process.env.URL || 'http://localhost:8080',
-  siteName: 'Eleventy Excellent',
+  siteName: 'The Wooden Chips',
   siteDescription:
-    'Eleventy starter based on the workflow suggested by buildexcellentwebsit.es.',
+    'The Wooden Chips Handyman Service: A handyman with expereince, honesty, and respect',
   siteType: 'Person', // schema
   locale: 'en_EN',
   lang: 'en',
   skipContent: 'Skip to content',
-  author: 'Lene Saile', // i.e. Lene Saile - author's name. Must be set.
+  author: 'The Wooden Chips LLC', // i.e. Lene Saile - author's name. Must be set.
   authorEmail: '', // i.e. hola@lenesaile.com - email of the author
   authorWebsite: '', // i.e. https.://www.lenesaile.com - the personal site of the author
   themeColor: '#DD4462', //  Manifest: defines the default theme color for the application
@@ -22,9 +22,9 @@ module.exports = {
   },
   blog: {
     // this is for the rss feed
-    name: 'My great Web Development Blog',
+    name: 'The Wooden Chips updates',
     description:
-      'Tell the word what you are writing about in your blog! It will show up on feed readers.'
+      'Updates on our services and mroe'
   },
   pagination: {
     itemsPerPage: 20

@@ -1,0 +1,40 @@
+{% if pattern and backgroundPrimary %}
+    <header class="hero | region pattern bg-primary-glare">
+    {% elif pattern %}
+        <header class="hero | region pattern bg-dark">
+        {% else %}
+            <header class="hero | region">
+            {% endif %}
+            <div class="hero__inner">
+                <div class="gutter flow text-light">
+                    <div>
+                        {% if eyebrow %}
+                            <p class="eyebrow">{{ eyebrow }}</p>
+                        {% endif %}
+
+                        <h1 class="text-secondary">
+                        {% if heroText %} {{ heroText }} {% else %} {{ title }} {% endif %}
+                        </h1>
+                    </div>
+                    <div class="cluster">
+
+                        {% if '/contact/' not in page.url %}
+                            <a href="/contact/" class="btn | bg-primary-glare shadow">Contact</a>
+                        {% else %}
+                            <a href="/service-area/" class="btn | bg-primary-glare shadow">Service Area</a>
+                        {% endif %}
+
+                        {% if pattern %}
+                            <a href="/services/" class="btn | bg-secondary text-dark shadow">Services</a>
+                        {% else %}
+                            <a href="/services/" class="btn | bg-dark shadow">Services</a>
+                        {% endif %}
+
+                    </div>
+                </div>
+            </div>
+            {% if heroImage %}
+                {% imageShortcode heroImage, heroImageAlt %}
+            {% endif %}
+
+        </header>
