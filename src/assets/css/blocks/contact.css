@@ -19,10 +19,10 @@ input, textarea {
 
 .contact button:hover {
   background-color: var(--color-secondary);
-  color: var(--color-light);
+  color: var(--color-dark);
 }
 
 .contact button:focus {
   background-color: var(--color-secondary);
-  color: var(--color-light);
+  color: var(--color-dark);
 }

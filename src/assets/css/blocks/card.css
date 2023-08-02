@@ -1,11 +1,15 @@
 .card {
-  background: var(--color-dark);
-  border: 4px solid var(--color-dark);
+  background: var(--color-primary-glare);
+  box-shadow: 0;
+  display: flex;
+  justify-items: center;
+  align-items: center;
   color: var(--color-light);
   padding: var(--space-m-l);
   border-radius: var(--border-radius);
   max-inline-size: unset;
   font-size: var(--size-step-0);
+  transition: box-shadow 1s ease-out;
 }
 
 .card ::selection {
@@ -24,11 +28,16 @@
 
 .card:hover,
 .card:focus-within {
-  border: 4px solid var(--color-primary);
+  box-shadow: -9px -9px 0px 0px rgba(0, 0, 0, 0.25);
 }
 
 .card a {
   text-decoration: none;
+}
+
+.card svg {
+  height: 4em;
+  width: 4em;
 }
 
 /* 'clickable' */
@@ -47,5 +56,6 @@
   right: 0;
   top: 0;
 }
+
 
 

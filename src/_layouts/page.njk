@@ -12,6 +12,11 @@ layout: base
     {{ content | safe }}
 {% endif %}
 
+{% if gallery %}
+    {% include "partials/gallery.njk" %}
+{% endif %}
+
+
 {% if contact %}
     {% include "partials/contact.njk" %}
 {% endif %}

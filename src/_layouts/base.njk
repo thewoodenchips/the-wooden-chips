@@ -9,13 +9,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- title -->
+    {%- set pageTitle %}{% if title %}{{ title }} | {% endif %}{{ meta.siteName }}{% endset -%}
     <title>
-      {% if seo.title %} {{ seo.title }}
-      {% elif title %}
-      {{ title }}
-      {% else %}
-      {{ meta.siteName }}
-      {% endif %}
+      {{ pageTitle }}
     </title>
 
     <link rel="stylesheet" href="/assets/css/global.css?{{ assetHash }}" />

@@ -1,24 +1,34 @@
 <article class="region bg-light">
   <div class="gutter flow">
-    <h2><mark>{{ services.title }}</mark></h2>
+    <h2>
+      <mark>{{ services.title }}</mark>
+    </h2>
     <!-- blog intro text is optional. -->
     {% if services.intro %}
-    <p>{{ services.intro }}</p>
+      <p>{{ services.intro }}</p>
     {% endif %}
   </div>
 
   <!-- TODO: duplicate of partials/blog.njk -->
 
-  <ul class="wrapper grid mt-l-xl" role="list" data-rows="masonry">
-    {% set serviceslist = collections.services %} {% for service in serviceslist.slice(0, 3) %}
-
-    <li class="card flow overflow-hidden">
-      <h3>
-        <a href="{{ service.url | url }}">{{ service.data.title }}</a>
-      </h3>
-      <p>{{ service.data.description }}</p>
-    </li>
+  <ul class="wrapper grid mt-l-xl" role="list">
+    {% set serviceslist = collections.services %}
+    {% for service in serviceslist.slice(0, 3) %}
+      <li class="card flow overflow-hidden stack">
+        {% include service.data.icon + ".svg" %}
+        <h3>
+          <a href="{{ service.url | url }}">{{ service.data.title }}</a>
+        </h3>
+      </li>
 
     {% endfor %}
+
+    {% if '/services/' not in page.url %}
+      <li class="card flow overflow-hidden">
+        <h3>
+          <a href="/services/">See All</a>
+        </h3>
+      </li>
+    {% endif %}
   </ul>
-</article> 
+</article>

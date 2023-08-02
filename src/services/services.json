@@ -1,5 +1,5 @@
 {
-  "layout": "service",
+  "layout": "page",
   "tags": "services",
-  "permalink": "//service/{{ page.fileSlug }}/index.html"
+  "permalink": "/service/{{ page.fileSlug }}/index.html"
 }

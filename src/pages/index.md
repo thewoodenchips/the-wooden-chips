@@ -1,9 +1,10 @@
 ---
 layout: 'home'
 permalink: /index.html
-title: 'Get Your Security Cameras Installed by a Professional Handyman.'
+heroText: 'Get Your Security Cameras Installed by a Professional Handyman.'
 eyebrow: 'And more'
-description: 'Eleventy starter using modern CSS, fluid type, fluid spacing, flexible layout and progressive enhancement.'
+title: "Home"
+description: 'A handyman service based in virginia, specializing in camera instalation, doorbell instalation, and other handyman tasks.'
 heroImage: './src/assets/images/homehero.png'
 heroImageAlt: 'Toolbox on stairs'
 services:
