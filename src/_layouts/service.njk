@@ -1,1 +1,19 @@
-{{ content | safe }}
+---
+layout: base
+---
+
+{% include "partials/hero.njk" %}
+
+{% if prose %}
+    <article class="region prose wrapper intro flow center">
+        {{ content | safe }}
+    </article>
+{% else %}
+    {{ content | safe }}
+{% endif %}
+
+{% include "partials/gallery.njk" %}
+
+{% include "partials/cta.njk" %}
+
+{% include "partials/modal.njk" %}

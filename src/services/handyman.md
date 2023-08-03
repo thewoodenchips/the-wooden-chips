@@ -1,6 +1,5 @@
 ---
 title: "General Handyman" 
-layout: page
 icon: "svg/handyman"
 heroImage: './src/assets/images/pexels-photo-1029243.png'
 heroImageAlt: 'Residential Neighborhood'

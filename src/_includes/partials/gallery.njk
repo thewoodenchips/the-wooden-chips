@@ -1,20 +1,21 @@
-<div class="gutter region flow">
-      <h2><mark> {% if galleryHeader %}
-            {{ data.page.galleryHeader }}
-            {% else %}
-            Our Work
-      {% endif %}</mark></h2>
-      <p>Click on the images to expand</p>
-
-      <ul class="declare-gallery gallery gutter">
-            {% asyncEach item in collections.gallery %}
-            {% if service in item.data.tag %}
-                  <li>
-                        {% imageShortcode item.data.image,
-                        item.data.title %}
-                  </li>
-            {% endif %}
-            {% endeach %}
-      </ul>
-
+<div class="pattern">
+      <div class="gutter region flow">
+            <h2><mark> {% if galleryHeader %}
+                  {{ data.page.galleryHeader }}
+                  {% else %}
+                  Our Work
+            {% endif %}</mark></h2>
+            <p>Click on the images to expand</p>
+      
+            <ul class="declare-gallery gallery region" data-rows="masonry">
+                  {% asyncEach item in collections.gallery %}
+                  {% if service in item.data.tag %}
+                        <li>
+                              {% imageShortcode item.data.image, item.data.title %}
+                        </li>
+                  {% endif %}
+                  {% endeach %}
+            </ul>
+      
+      </div>
 </div>

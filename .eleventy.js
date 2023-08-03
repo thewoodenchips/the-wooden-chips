@@ -43,6 +43,8 @@ const {
 // module import collections
 const {getAllServices} = require('./config/collections/index.js');
 
+
+
 // module import events
 const {svgToJpeg} = require('./config/events/index.js');
 
@@ -65,8 +67,7 @@ module.exports = eleventyConfig => {
   eleventyConfig.addLayoutAlias('base', 'base.njk');
   eleventyConfig.addLayoutAlias('page', 'page.njk');
   eleventyConfig.addLayoutAlias('home', 'home.njk');
-  eleventyConfig.addLayoutAlias('blog', 'blog.njk');
-  eleventyConfig.addLayoutAlias('post', 'post.njk');
+  eleventyConfig.addLayoutAlias('service', 'service.njk');
 
   // 	---------------------  Custom filters -----------------------
   eleventyConfig.addFilter('toUpperCase', toUpperCase);
@@ -131,6 +132,10 @@ module.exports = eleventyConfig => {
 
   eleventyConfig.addPassthroughCopy({
     'src/assets/css/global.css': 'src/_includes/global.css'
+  });
+
+  eleventyConfig.addCollection("gallery", function(collectionApi) {
+    return collectionApi.getFilteredByTag("gallery");
   });
 
   // 	--------------------- general config -----------------------
