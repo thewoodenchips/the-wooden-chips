@@ -134,6 +134,8 @@ module.exports = eleventyConfig => {
     'src/assets/css/global.css': 'src/_includes/global.css'
   });
 
+  eleventyConfig.addPassthroughCopy("src/admin");
+
   eleventyConfig.addCollection("gallery", function(collectionApi) {
     return collectionApi.getFilteredByTag("gallery");
   });

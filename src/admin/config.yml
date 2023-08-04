@@ -1,0 +1,26 @@
+backend:
+  name: git-gateway
+  branch: main
+media_folder: "src/assets/images"
+public_folder: "/assets/images"
+collections: 
+  - name: "photos"
+    label: "photos"
+    folder: "src/gallery"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Tags", name: "tag", widget: "select", multiple: true, options: ["Security Cameras", "General Handyman", "Doorbells"]}
+
+  - name: "services"
+    label: "services"
+    folder: "src/services"
+    fields:
+      - {label: "Title: this is what google will see as the title", name: "title", widget: "string"}
+      - {label: "Title: this is what google will see as the description", name: "description", widget: "string"}
+      - {label: "Title: this field is what the title will be on the page", name: "heroText", widget: "string"}
+      - {label: "Title: this is the subtitle displayed on the page", name: "eyebrow", widget: "string"}
+      - {label: "Name of service, determines which ", name: "service", widget: "select", options: ["Security Cameras", "General Handyman", "Doorbells"]}
+      - { label: 'Service Page Content', name: 'body', widget: 'markdown' }
