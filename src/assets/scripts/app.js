@@ -119,3 +119,5 @@ function Gallery(gallery) {
   modal.addEventListener("click", handleClickOutside);
 }
 
+const gallery = Gallery(document.querySelector(".declare-gallery"));
+
