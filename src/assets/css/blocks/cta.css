@@ -14,16 +14,16 @@
   
 }
 
-/* .cta {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: var(--space-s);
-} */
 
-/* .cta__image {
-  width: 60%;
-} */
+
+@media screen and (max-width: 48em) {
+  .cta__text {
+    margin-top: var(--space-m);
+    margin-bottom: var(--space-m);
+  }
+}
+
+
 
 .cta__text {  
   padding-right: var(--space-l);
