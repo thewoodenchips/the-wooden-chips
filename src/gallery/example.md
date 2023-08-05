@@ -1,6 +1,6 @@
 ---
-title: Example image
-image: ./src/assets/images/portfolio/temp_1685404319176.jpeg
+title: Security camera in corner of house
+image: /assets/images/temp_1685404319109.jpeg
 tag:
   - Security Cameras
 ---
