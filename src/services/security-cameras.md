@@ -2,7 +2,7 @@
 title: "Security Cameras" 
 icon: "svg/cctv"
 heroImage: './src/assets/images/pexels-kelly-3845529.png'
-heroImageAlt: 'Residential Neighborhood'
+heroImageAlt: 'Security Camera on wall'
 prose: true
 gallery: true
 service: "security-cameras"

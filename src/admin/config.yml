@@ -12,7 +12,7 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Image", name: "image", widget: "image"}
-      - {label: "Tags", name: "tag", widget: "select", multiple: true, options: ["Security Cameras", "General Handyman", "Doorbells"]}
+      - {label: "Tags", name: "tag", widget: "select", multiple: true, options: ["security-cameras", "general-handyman", "doorbells"]}
 
   - name: "services"
     label: "services"

@@ -76,8 +76,8 @@ const imageShortcode = async (
     throw new Error(`Missing \`alt\` on myImage from: ${src}`);
   }
 
-  if (src.slice(0, 3) != "src") {
-    src = "src" + src
+  if (src.slice(0, 7) === "/assets") {
+    src = "./src" + src
   }
 
   let metadata = await Image(src, {

@@ -5,7 +5,7 @@ heroImage: './src/assets/images/pexels-photo-1029243.png'
 heroImageAlt: 'Residential Neighborhood'
 prose: true
 gallery: true
-service: "handyman"
+service: "general-handyman"
 ---
 
 ## HOW CAN WE HELP?
