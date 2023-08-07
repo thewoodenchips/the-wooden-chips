@@ -1,7 +1,9 @@
 ---
 title: "Doorbell" 
 icon: "svg/doorbell"
-heroImage: './src/assets/images/gettyimages-1170779708-612x612.png'
+heroText: "GEt YOUR Doorbell Installed BY A PROFESSIONAL HANDYMAN."
+eyebrow: "Instalation, Consultation, and Repairs"
+heroImage: './src/assets/images/pexels-mart-production-7706400.jpg'
 heroImageAlt: 'Residential Neighborhood'
 prose: true
 gallery: true
