@@ -123,10 +123,6 @@ article [href^='http']:not([href*='eleventy-excellent.netlify.app'])::after {
 }
 
 /* Base selection styles that invert whatever colours are rendered */
-::selection {
-  background: var(--color-primary);
-  color: var(--color-light);
-}
 
 .preload-transitions * {
   transition: none !important;
