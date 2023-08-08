@@ -1,5 +1,5 @@
 ---
-title: "Doorbell" 
+title: "Video Doorbell" 
 icon: "svg/doorbell"
 heroText: "GEt YOUR Doorbell Installed BY A PROFESSIONAL HANDYMAN."
 eyebrow: "Instalation, Consultation, and Repairs"
@@ -7,7 +7,7 @@ heroImage: './src/assets/images/pexels-mart-production-7706400.jpg'
 heroImageAlt: 'Residential Neighborhood'
 prose: true
 gallery: true
-service: "doorbell"
+service: "doorbells"
 ---
 
 ## DOORBELLS DONE RIGHT

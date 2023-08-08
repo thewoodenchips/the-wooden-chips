@@ -17,4 +17,11 @@ layout: base
     {% include "partials/contact.njk" %}
 {% endif %}
 
+{% if map %}
+    <section class="map | gutter region flow">
+        <h2><mark>Map</mark></h2>
+<iframe src="https://www.google.com/maps/d/embed?mid=1NE6eRg9XLbRRrxA8az9-bynVrRDr72I&ehbc=2E312F"></iframe>
+    </section>
+{% endif %}
+
 {% include "partials/cta.njk" %}

@@ -36,9 +36,10 @@ document.addEventListener('click', e => {
 nav.insertBefore(burgerClone, list);
 
 function Gallery(gallery) {
-  if (!gallery) {
-    throw new Error("No Gallery Found!");
-  }
+   if (!gallery) {
+    //  throw new Error("No Gallery Found!");
+    return
+   }
 
   // select the elements we need
   const images = Array.from(gallery.querySelectorAll("picture"));
@@ -121,3 +122,15 @@ function Gallery(gallery) {
 
 const gallery = Gallery(document.querySelector(".declare-gallery"));
 
+/*
+const map = document.querySelector('.map__img'); 
+let maplistner = function (e) { 
+  console.log("hello")
+    let frame = document.createElement ('iframe'); 
+    frame.src = this.getAttribute ('data-src'); 
+    map.appendChild (frame); 
+    map.removeEventListener ("mouseover", maplistner); 
+}; 
+
+map.addEventListener('mouseover', maplistner);      
+*/

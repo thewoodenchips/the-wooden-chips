@@ -5,6 +5,7 @@ heroImage: './src/assets/images/pexels-kelly-3845529.png'
 heroImageAlt: 'Residential Neighborhood'
 permalink: /service-area/index.html
 prose: true
+map: true
 ---
 ## How can we help?
 
