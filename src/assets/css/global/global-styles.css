@@ -107,7 +107,7 @@ main:focus {
   outline: none;
 }
 
-article [href^='http']:not([href*='eleventy-excellent.netlify.app'])::after {
+article [href^='http']:not([href*='thewoodenchips.netlify.app'])::after {
   display: inline-block;
   inline-size: 1em;
   block-size: 1em;

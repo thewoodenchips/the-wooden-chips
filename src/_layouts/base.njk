@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- title -->
-    {%- set pageTitle %}{% if title %}{{ title }} | {% endif %}{{ meta.siteName }}{% endset -%}
+    {%- set pageTitle %}{% if title %}{{ title }} {% endif %} | {{ meta.siteName }}{% endset -%}
     <title>
       {{ pageTitle }}
     </title>
