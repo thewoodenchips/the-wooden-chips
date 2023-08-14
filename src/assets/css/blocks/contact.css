@@ -4,11 +4,13 @@
   align-content: center;
 }
 
-input, textarea {
+input,
+textarea {
   padding: var(--space-s);
 }
 
-[data-color--scheme="dark"] input, [data-color--scheme="dark"] textarea{
+[data-color--scheme='dark'] input,
+[data-color--scheme='dark'] textarea {
   background-color: var(--color-dark);
   color: var(--color-light);
 }
@@ -25,4 +27,10 @@ input, textarea {
 .contact button:focus {
   background-color: var(--color-secondary);
   color: var(--color-dark);
+}
+
+@media screen and (min-width: 60em) {
+  .contact p {
+    max-width: 40ch;
+  }
 }
