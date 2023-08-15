@@ -1,6 +1,6 @@
 ---
 title: Services
-description: 'All blog posts can be found here'
+description: 'The Wooden Chips specializes in camera installation, doorbell installation, and other handyman tasks. See our full list of services.'
 layout: services
 services:
   title: 'Our Craft'

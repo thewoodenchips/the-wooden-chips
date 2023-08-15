@@ -1,7 +1,7 @@
 ---
 title: "Security Cameras" 
 icon: "svg/cctv"
-heroImage: './src/assets/images/pexels-kelly-3845529.png'
+heroImage: './src/assets/images/security-cameras.png'
 heroImageAlt: 'Security Camera on wall'
 prose: true
 gallery: true
