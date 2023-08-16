@@ -30,7 +30,7 @@ textarea {
 }
 
 @media screen and (min-width: 60em) {
-  .contact p {
+  .contact__info p {
     max-width: 40ch;
   }
 }
