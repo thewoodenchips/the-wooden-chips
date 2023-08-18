@@ -11,6 +11,6 @@ map: true
 
 ## How can we help?
 
-Quam pellentesque nec nam aliquam sem et. Amet consectetur adipiscing elit duis tristique. Lectus proin nibh nisl condimentum id venenatis a. Sit amet risus nullam eget felis eget nunc lobortis mattis. Vel orci porta non pulvinar neque laoreet suspendisse. Nam aliquam sem et tortor consequat id porta nibh. Et odio pellentesque diam volutpat commodo sed egestas.
+We cover 171 miles (or 1,442 Square Miles to be exact) of range for our clients. Based in Eastern Virginia, we work in small towns such as Newport News, Suffolks, Smithfield, and Carrollton along with big cities such as Virginia Beach, Chesapeake, Portsmouth, and Norfolk and more.
 
-Ipsum nunc aliquet bibendum enim facilisis gravida neque. Fermentum leo vel orci porta non pulvinar neque laoreet suspendisse. Facilisis gravida neque convallis a cras semper auctor neque. Molestie at elementum eu facilisis sed. Eget est lorem ipsum dolor sit amet consectetur adipiscing elit. Morbi non arcu risus quis varius.
+See our [services](/services/) page for a list of services we offer and how we can help solve your problem.
