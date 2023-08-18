@@ -13,4 +13,4 @@ map: true
 
 We cover 171 miles (or 1,442 Square Miles to be exact) of range for our clients. Based in Eastern Virginia, we work in small towns such as Newport News, Suffolks, Smithfield, and Carrollton along with big cities such as Virginia Beach, Chesapeake, Portsmouth, and Norfolk and more.
 
-See our [services](/services/) page for a list of services we offer and how we can help solve your problem.
+See our **[services](/services/)** page for a list of services we offer and how we can help solve your problem.

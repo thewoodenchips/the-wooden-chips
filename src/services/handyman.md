@@ -10,6 +10,11 @@ service: "general-handyman"
 
 ## HOW CAN WE HELP?
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget duis at tellus at urna condimentum mattis pellentesque. Mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Suspendisse faucibus interdum posuere lorem. Eget est lorem ipsum dolor sit amet consectetur adipiscing elit. 
+Aside from our specialties in **[Doorbells](/service/doorbell/)** and **[Security Cameras](/service/security-cameras/)** The Wooden Chips offers other general handyman services such as:
 
-Dictum non consectetur a erat nam at. Nibh sed pulvinar proin gravida hendrerit. Morbi tristique senectus et netus et. Sit amet dictum sit amet justo donec enim diam. Mus mauris vitae ultricies leo integer malesuada nunc vel. Nisl nisi scelerisque eu ultrices vitae auctor eu. Phasellus egestas tellus rutrum tellus pellentesque eu. Eu augue ut lectus arcu
+* Plumbing (bathroom and kitchen)
+* Flooring
+* Troubleshoot and preventative maintenance for electrical problems (like loose sockets, fans, and changing of breakers)
+* Space Optimization (Installing cabinets, drawers, etc.) using empty space in the house to its maximum potential
+* Tv Mounts and brackets, Magnet Mounts (also known as stud-less mounts) (possibly separate page)
+* Replace/install traditional-lap and beaded-seam vinyl siding for houses
