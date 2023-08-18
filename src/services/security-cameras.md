@@ -1,16 +1,17 @@
 ---
-title: "Security Cameras" 
-icon: "svg/cctv"
+title: 'Security Cameras'
+icon: 'svg/cctv'
 heroImage: './src/assets/images/security-cameras.png'
 heroImageAlt: 'Security Camera on wall'
 prose: true
 gallery: true
-service: "security-cameras"
+service: 'security-cameras'
 ---
 
 ## SECURITY CAMERAS DONE RIGHT
 
-Quam pellentesque nec nam aliquam sem et. Amet consectetur adipiscing elit duis tristique. Lectus proin nibh nisl condimentum id venenatis a. Sit amet risus nullam eget felis eget nunc lobortis mattis. Vel orci porta non pulvinar neque laoreet suspendisse. Nam aliquam sem et tortor consequat id porta nibh. Et odio pellentesque diam volutpat commodo sed egestas.
+The Wooden Chips offers **Installation, Maintenance, and Repair of:**
+* Residential and Business Security Cameras.
+* Data rack and recording systems pertaining to security cameras.
 
-
- Ipsum nunc aliquet bibendum enim facilisis gravida neque. Fermentum leo vel orci porta non pulvinar neque laoreet suspendisse. Facilisis gravida neque convallis a cras semper auctor neque. Molestie at elementum eu facilisis sed. Eget est lorem ipsum dolor sit amet consectetur adipiscing elit. Morbi non arcu risus quis varius.
+We Specialize in **Ring**, **Reolink**, and **Lorex** security cameras systems. However, we’re ready to work with what you have and what you would like to install, maintain, or repair.
