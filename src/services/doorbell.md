@@ -1,7 +1,8 @@
 ---
-title: "Video Doorbell" 
+title: "Video Doorbell"
+description: 'The Wooden Chips offers Installation, Maintenance, and Repair of Doorbells and Video Doorbells, Wiring and transformers for powering these Doorbells, and Doorbell Chimes' 
 icon: "svg/doorbell"
-heroText: "GEt YOUR Doorbell Installed BY A PROFESSIONAL HANDYMAN."
+heroText: "Get YOUR Doorbell Installed BY A PROFESSIONAL HANDYMAN."
 eyebrow: "Instalation, Consultation, and Repairs"
 heroImage: './src/assets/images/pexels-mart-production-7706400.jpg'
 heroImageAlt: 'Residential Neighborhood'

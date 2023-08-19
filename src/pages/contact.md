@@ -1,5 +1,6 @@
 ---
 title: 'Contact'
+description: 'The Wooden Chips provide a service with integrity, respect, and experience. Contact us to see how we can help.'
 layout: page
 permalink: /contact/index.html
 pattern: true
