@@ -1,5 +1,6 @@
 ---
 title: 'Security Cameras'
+description: 'The Wooden Chips offers Installation, Maintenance, and Repair of Residential and Business Security Cameras. Data rack and recording systems pertaining to security cameras.'
 icon: 'svg/cctv'
 heroImage: './src/assets/images/security-cameras.png'
 heroImageAlt: 'Security Camera on wall'

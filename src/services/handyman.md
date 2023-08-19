@@ -1,5 +1,6 @@
 ---
-title: "General Handyman" 
+title: "General Handyman"
+description: 'The Wooden Chips offers many general handyman services including but not limited to plumbing, TV mounts, and vinyl siding. See our page for a full list.' 
 icon: "svg/handyman"
 heroImage: './src/assets/images/pexels-photo-1029243.png'
 heroImageAlt: 'Residential Neighborhood'
