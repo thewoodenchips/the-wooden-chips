@@ -4,7 +4,8 @@
   <div class="bg-dark text-secondary region">
     <div class="site-foot__inner gutter">
       {# TODO: Make Image below smaller #}
-     <a href="/"> {% imageShortcode "./src/assets/images/logo-alt.png", "Logo" %}</a>
+      <a href="/">
+        {% imageShortcode "./src/assets/images/logo-alt.png", "Logo" %}</a>
       <nav id="footernav" class="site-foot__inner text-step-1 switcher text-center region " data-switcher="center" aria-label="Footer">
         {# 
 
@@ -32,39 +33,40 @@
             <a href="tel:9198304224">(757)-822-9210</a>
           </li>
           <li id="email">
-            <a href="mailto:afrantz143@icloud.com">
-          afrantz143@icloud.com
+            <a href={{"mailto:" + meta.authorEmail}}>
+              {{ meta.authorEmail}}
+            </a>
           </a>
-          </li>
-        </ul>
-        <ul class="footer__list flow">
-          <h4>Services</h4>
-          <li>
-            <a href="/service/security-cameras">Security Cameras</a>
-          </li>
-          <li>
-            <a href="/service/doorbell">Doorbells and Video Doorbells</a>
-          </li>
-          <li>
-            <a href="/service/handyman">General Handyman</a>
-          </li>
-        </ul>
-        <ul class="footer__list flow">
-          <h4>Links</h4>
-          <li>
-            <a href="/contact/">Contact</a>
-          </li>
-          <li>
-            <a href="/service-area/">Service Area</a>
-          </li>
-          {# <li>
+        </li>
+      </ul>
+      <ul class="footer__list flow">
+        <h4>Services</h4>
+        <li>
+          <a href="/service/security-cameras">Security Cameras</a>
+        </li>
+        <li>
+          <a href="/service/doorbell">Doorbells and Video Doorbells</a>
+        </li>
+        <li>
+          <a href="/service/handyman">General Handyman</a>
+        </li>
+      </ul>
+      <ul class="footer__list flow">
+        <h4>Links</h4>
+        <li>
+          <a href="/contact/">Contact</a>
+        </li>
+        <li>
+          <a href="/service-area/">Service Area</a>
+        </li>
+        {# <li>
             <a href="dj.thewoodenchips.com">DJ Services</a>
           </li> #}
-        </ul>
+      </ul>
 
-      </nav>
+    </nav>
 
-      {# <nav id="social" class="site-foot__inner" aria-label="Social links">
+    {# <nav id="social" class="site-foot__inner" aria-label="Social links">
         {% for item in social %}
 
         {% if item.platform == "rss" %}
@@ -77,12 +79,13 @@
           </a
           >
         {% endfor %} #}
-    </nav>
-  </div>
-  </div>
+  </nav>
+</div>
+</div>
 <!-- lang menu -->
- <div class="site-foot__copyright | bg-light flow text-color-dark text-center center region">
-    <p>Website by <a href="https://lebronconsulting.tech/">Lebron Consulting</a></p>
-    <p>©2022 {{ meta.siteName + " LLC" }}</p>
+<div class="site-foot__copyright | bg-light flow text-color-dark text-center center region">
+<p>Website by <a href="https://lebronconsulting.tech/">Lebron Consulting</a>
+</p>
+<p>©2022 {{ meta.siteName + " LLC" }}</p>
 </div>
 </footer>
