@@ -53,3 +53,20 @@
   flex-grow: 999;
   min-inline-size: 60%;
 }
+
+[data-sidebar="reverse"] {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+[data-sidebar="reverse"] > :last-child {
+  flex-basis: 0;
+  flex-grow: 999;
+  min-inline-size: 60%;
+}
+
+[data-sidebar="reverse"] > :first-child {
+  flex-basis: 40%;
+  flex-grow: 1;
+}
