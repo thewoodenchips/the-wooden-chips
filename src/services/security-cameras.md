@@ -15,4 +15,4 @@ The Wooden Chips offers **Installation, Maintenance, and Repair of:**
 * Residential and Business Security Cameras.
 * Data rack and recording systems pertaining to security cameras.
 
-We Specialize in **Ring**, **Reolink**, and **Lorex** security cameras systems. However, we’re ready to work with what you have and what you would like to install, maintain, or repair.
+We Specialize in **Ring**, **Reolink**, and **Lorex** security cameras systems. We’re also ready to work with what you have and what you would like to install, maintain, or repair.

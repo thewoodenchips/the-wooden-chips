@@ -19,4 +19,4 @@ The Wooden Chips offers **Installation, Maintenance, and Repair of:**
 * Wiring and transformers for powering these Doorbells
 * Doorbell Chimes
 
-Ring Doorbells are especially recommended and loved by our company. However, we’re happy to work on your existing Doorbell or Video Doorbell no matter the brand or condition. Contact us to see how we can help with your doorbell problems.
+Ring Doorbells are especially recommended and loved by our company. We’re happy to work on your existing Doorbell or Video Doorbell no matter the brand or condition. Contact us to see how we can help with your doorbell problems.
