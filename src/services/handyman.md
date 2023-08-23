@@ -18,5 +18,5 @@ Aside from our specialties in **[Doorbells](/service/doorbell/)** and **[Securit
 * Flooring
 * Troubleshoot and preventative maintenance for electrical problems (like loose sockets, fans, and changing of breakers)
 * Space Optimization (Installing cabinets, drawers, etc.) using empty space in the house to its maximum potential
-* Tv Mounts and brackets, Magnet Mounts (also known as stud-less mounts) (possibly separate page)
+* Tv Mounts and brackets and Magnet Mounts (also known as stud-less mounts)
 * Replace/install traditional-lap and beaded-seam vinyl siding for houses
