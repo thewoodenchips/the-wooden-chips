@@ -1,10 +1,12 @@
 {% if cta === "2" %}
-    <section class="cta | flow region relative bg-light pattern" data-sidebar="reverse"  style="--region-space-top:var(--space-xl); --region-space-bottom:var(--space-xl);">
-        <div class="cta__text | stack flow" style="--flow-space:3em;">
+    <section class="cta | flow region relative bg-light pattern" data-sidebar="reverse"  style="--region-space-top:var(--space-l); --region-space-bottom:var(--space-l);">
+        <div class="cta__text | stack flow" style="--flow-space:var(--space-l);">
             <h3>Save Time And Get The Job Done</h2>
             <p>We’re dedicated to providing you with the best possible service. We offer general handyman services such as minor repairs, as well as specialized services such as security camera installation and doorbell installation. We take pride in our work and strive to exceed your expectations.</p>
-            <a href="/contact/" class="btn text-light | bg-primary-glare shadow">Contact</a>
-            <a href="/services/" class="btn | bg-secondary text-dark shadow">Services</a>
+           <div class="cluster">
+                <a href="/contact/" class="btn text-light | bg-primary-glare shadow">Contact</a>
+                <a href="/services/" class="btn | bg-secondary text-dark shadow">Services</a>
+           </div>
         </div>
         <div class="cta__image">
             {% imageShortcode "./src/assets/images/pexels-adonyi-gábor-1409216.png", "Toolbox on stairs" %}
@@ -12,7 +14,7 @@
         </div>
     </section>
 {% else %}
-    <section class="cta | with-sidebar flow region relative bg-light pattern" --region-space-top:var(--space-xl)>
+    <section class="cta | with-sidebar flow region relative bg-light pattern">
 
         <div class="cta__image">
             {% imageShortcode "./src/assets/images/pexels-anete-lusina-4792488.jpg", "Toolbox on stairs" %}
@@ -23,7 +25,12 @@
             <h3>Save Time And Get The Job Done</h2>
             <p>We’re dedicated to providing you with the best possible service. We offer general handyman services such as minor repairs, as well as specialized services such as security camera installation and doorbell installation. We take pride in our work and strive to exceed your expectations.</p>
             <div class="cluster">
-                <a href="/contact/" class="btn text-light | bg-primary-glare shadow text-center">Contact</a>
+                
+                {% if '/contact/' not in page.url %}
+                <a href="/contact/" class="btn | text-light bg-primary-glare shadow text-center">Contact</a>
+                {% else %}
+                    <a href="/service-area/" class="btn | text-light bg-primary-glare shadow">Service Area</a>
+                {% endif %}
                 <a href="/services/" class="btn | bg-secondary text-dark shadow text-center">Services</a>
             </div>
         </div>
