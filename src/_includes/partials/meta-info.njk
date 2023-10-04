@@ -34,7 +34,7 @@
 <meta property="og:type" content="website" />
 <meta
   property="og:title"
-  content="{% if title %}{{ title }}{% else %} | {{ meta.siteName }}{% endif %}"
+  content="{% if title %}{{ title }} | {% endif %}{{ meta.siteName }}"
 />
 <meta
   property="og:image"
@@ -55,7 +55,7 @@
     meta.siteDescription
   }}{% endif %}"
 />
-<meta property="og:site_name" content="{{ meta.siteName }}" />
+<meta property="og:site_name" content="{{ pageTitle }}" />
 <meta property="og:locale" content="{{ meta.locale }}" />
 <meta property="article:author" content="{{ meta.author }}" />
 
