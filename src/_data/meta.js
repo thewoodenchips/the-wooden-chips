@@ -37,8 +37,8 @@ module.exports = {
     state: 'Estado',
     zip: '12345',
     mobileDisplay: '+34 1234567',
-    mobileCall: ' +341234567',
-    email: 'hola@yoursite.com',
+    mobileCall: '(757)-822-9210',
+    email: 'thewoodenchips@gmail.com',
     cif: ''
   },
   menu: {
