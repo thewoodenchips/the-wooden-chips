@@ -51,3 +51,8 @@
   --region-space-top: var(--space-m);
   --region-space-bottom: var(--space-m);
 }
+ [data-heading-size="h4"] {
+  h3 {
+    font-size: var(--size-step-3);
+  }
+ }
