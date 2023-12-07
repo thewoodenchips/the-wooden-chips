@@ -22,9 +22,3 @@
   position: relative;
 }
 
-.center {
-  box-sizing: content-box;
-  margin-inline: auto;
-  max-inline-size: 60ch;
-}
-  

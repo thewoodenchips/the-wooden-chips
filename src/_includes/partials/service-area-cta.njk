@@ -1,0 +1,15 @@
+<section class="region bg-light flow">
+    <article class="gutter flow center text-center" style="--flow-space: var(--space-l)">
+        <h2>Servicing <mark>Beautiful</mark> Southeast Virginia</h2>
+        {# TODO: add links to service area page and other pages in the P below #}
+        <p>Our company is located in Portsmouth and provides solutions throughout southeast Virginia. Whether you need security cameras, doorbells, or other handyman  services, we can help. Check out our service area or get in touch with us and find out more.</p>
+    </article>
+    <div class="gutter region">
+        {# TODO: Get gutter and alignment of list right #}
+        <ul class="cluster gutter" role="list">
+            {% for area in serviceAreas %}
+                <li class="card font-display">{{ area.location }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</section>
