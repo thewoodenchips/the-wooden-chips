@@ -13,7 +13,7 @@ const cityList = [
 function jsonGen() {
   for (const city of cityList) {
     finished.push({
-      location: `${city}`,
+      location: `${city}, VA`,
     });
   }
   // console.log(finished);
