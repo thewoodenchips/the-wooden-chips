@@ -14,7 +14,7 @@
 
 .gutter {
   width: 90vw;
-  width: clamp(10rem, 92vw, 90rem);
+  width: clamp(10rem, 92vw, 85rem);
   margin-left: auto;
   margin-right: auto;
   padding-left: 1.5rem;
@@ -22,3 +22,7 @@
   position: relative;
 }
 
+[data-wrapper="center"] {
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}

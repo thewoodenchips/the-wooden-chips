@@ -4,7 +4,8 @@ const cityList = [
     "Chesapeake",
     "Virginia Beach",
     "Portsmouth",
-    "Suffolk"
+    "Suffolk",
+    "Hampton"
   ];
 
   const finished = [];
