@@ -1,0 +1,9 @@
+.center {
+    box-sizing: content-box;
+    margin-inline: auto;
+    max-inline-size: 60ch;
+  }
+
+  [data-center="service-area"] {
+    max-inline-size: clamp(10rem, 92vw, 70rem);
+  }
