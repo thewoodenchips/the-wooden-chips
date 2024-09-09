@@ -1,6 +1,8 @@
 // © Manuel Matuzović: https://web.dev/website-navigation/
 
-
+// Date function
+const copyright = document.querySelector('.copyright')
+copyright.textContent =  `©${new Date().getFullYear()}` + copyright.textContent;
 
 const nav = document.querySelector('nav');
 const list = nav.querySelector('ul');
